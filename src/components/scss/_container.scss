@@ -262,16 +262,16 @@
 
   .cards {
     display: grid;
-    grid-gap: $space-6;
+    grid-gap: $space-5;
     grid-template-columns: auto auto auto;
     margin: $space-5 $space-6;
     .card{
-      padding-bottom: $space-4;
-
+      position: relative;
+      padding-bottom: $space-6;
       border: 1px solid $base-200;
-
       &__image{
         width: 100%;
+        max-height: 260px;
       }
         &__title{
         font-family: Domine;
@@ -288,6 +288,9 @@
         padding: $space-3 24px;
       }
       &__link {
+        position: absolute;
+        bottom: 0px;
+        margin: $space-4 0;
         @include small-title;
         padding: $space-3 24px;
         color:$primary-600;

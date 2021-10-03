@@ -505,19 +505,21 @@
 .section-5 .cards {
   display: -ms-grid;
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 32px;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
   margin: 32px 64px;
 }
 
 .section-5 .cards .card {
-  padding-bottom: 16px;
+  position: relative;
+  padding-bottom: 64px;
   border: 1px solid #E5E5E5;
 }
 
 .section-5 .cards .card__image {
   width: 100%;
+  max-height: 260px;
 }
 
 .section-5 .cards .card__title {
@@ -540,6 +542,9 @@
 }
 
 .section-5 .cards .card__link {
+  position: absolute;
+  bottom: 0px;
+  margin: 16px 0;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
