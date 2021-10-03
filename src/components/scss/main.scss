@@ -1,0 +1,18 @@
+@import "home";
+@import "variables";
+
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.color__primary {
+  display: inline-block;
+  color:$primary;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}

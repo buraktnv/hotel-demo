@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Font Family
+$domine : 'Domine', serif;
+$dm-sans: 'DM Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+$mobil-break-point-lg: 768px;
+$mobil-break-point-sm: 540px;
+
+
+
+// Colours 
+$primary:#7FFFD4;
+$primary-100:#F2FFFA;
+$primary-200:#D8FFF2;
+$primary-300:#BFFFE9;
+$primary-400:#A5FFE0;
+$primary-500:#7FFFD4;
+$primary-600:#65CCA9;
+$primary-700:#4C997F;
+$primary-800:#326654;
+$primary-900:#19332A;
+$base:#999999;
+$base-100:#FFFFFF;
+$base-200:#E5E5E5;
+$base-300:#CCCCCC;
+$base-400:#B2B2B2;
+$base-500:#999999;
+$base-600:#7F7F7F;
+$base-700:#666666;
+$base-800:#333333;
+$base-900:#000000;
+
+// Typography
+
+@mixin hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  font-family: $domine;
+}
+
+@mixin section-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: $domine;
+}
+
+@mixin hero-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: $dm-sans;
+}
+
+@mixin text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: $dm-sans;
+}
+
+@mixin text-1 {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: $domine;
+}
+
+@mixin text-2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: $domine;
+}
+
+@mixin small-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: $dm-sans;
+}
+
+@mixin h6 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: $domine;
+}
+
+@mixin p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: $roboto;
+}
+
+@mixin small {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: $roboto;
+}
+
+
+// Buttons
+
+@mixin standard-button {
+  @include p;
+  color: $base-900;
+  background-color: $primary-500;
+  &:hover {
+    background-color: $primary-600;
+  }
+
+  &:active {
+    background-color: $primary-700;
+  }
+
+  &:disabled {
+    color:$base-600;
+    background-color: $base-200;
+  }
+}
+
+@mixin outline-button {
+  @include p;
+  color: $base-900;
+  border: solid 1px $primary-500;
+  &:hover {
+    background-color: $primary-600;
+  }
+  &:active {
+    background-color: $primary-700;
+  }
+  &:disabled {
+    color: $base-400;
+    border: 1px solid $base-200;
+  }
+}
+
+
+
+// Spacing
+
+$space-1: 2px;
+$space-2: 4px;
+$space-3: 8px;
+$space-4: 16px;
+$space-5: 32px;
+$space-6: 64px;
+
+
+
+
+
+
