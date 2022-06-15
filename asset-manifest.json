@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hotel-demo/static/css/main.5cc84150.chunk.css",
+    "main.js": "/hotel-demo/static/js/main.176b8e8d.chunk.js",
+    "main.js.map": "/hotel-demo/static/js/main.176b8e8d.chunk.js.map",
+    "runtime-main.js": "/hotel-demo/static/js/runtime-main.a0c003f0.js",
+    "runtime-main.js.map": "/hotel-demo/static/js/runtime-main.a0c003f0.js.map",
+    "static/js/2.50b10ebf.chunk.js": "/hotel-demo/static/js/2.50b10ebf.chunk.js",
+    "static/js/2.50b10ebf.chunk.js.map": "/hotel-demo/static/js/2.50b10ebf.chunk.js.map",
+    "index.html": "/hotel-demo/index.html",
+    "static/css/main.5cc84150.chunk.css.map": "/hotel-demo/static/css/main.5cc84150.chunk.css.map",
+    "static/js/2.50b10ebf.chunk.js.LICENSE.txt": "/hotel-demo/static/js/2.50b10ebf.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/hotel-demo/static/media/mobil-background-image.760c74ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0c003f0.js",
+    "static/js/2.50b10ebf.chunk.js",
+    "static/css/main.5cc84150.chunk.css",
+    "static/js/main.176b8e8d.chunk.js"
+  ]
+}
